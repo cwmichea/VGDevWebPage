@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Normalize -->
+     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+<!-- Personal styles -->
+    <link rel="stylesheet" href="/Styles/styles.css">  <!-- How things are going to be by default font spacing placement fontfam --> 
+<!-- Jam icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <title>BunnySite</title>
+</head>
+<body>
+
+    <header class="main-header">  <!-- 1 Header -->
+        <div class="content-wrapper">
+            <a href="/">
+                <img src="/Images/bunnylogo3(1).png" alt="Bunny Logo">
+            </a>
+            <span id="open-menu-button" class="jam jam-menu"></span>
+            <nav id="main-menu" class="main-menu">
+                <span id="close-menu-button" class="jam jam-close"></span>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/me.html">About me</a>
+                    </li>
+                    <li>
+                        <a href="/projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>  
+        <section class="main-banner section-container"> <!-- 2 Main Banner -->  <!-- Demarcar la zona/banner --> 
+        <div class="content-wrapper content">  <!-- How to place the content --> 
+            <div class="container">  <!-- How to place the content --> 
+                <h1 class="title">Welcome</h1> <!-- Change from black to white --> 
+                <p class="subtitle">How are you doing?</p> <!-- Change from dark grey to light grey --> 
+                <a href="/contact.html">Reach out</a>
+            </div>
+
+            <div class="image-banner">
+                <img src="Images/bunnyCafe.png" alt="Bunny Logo" class="image-cafe" >
+            </div>
+        </div>
+        </section>
+
+        <section class="services-section section-container">  <!-- 3 Projects-->
+        <div>
+            <h2>Our Projects</h2>
+            <div class="content-wrapper"> <!-- Instead to hvae vertical display, in line display 3 elements -->
+                <article class="service-item"> <!-- Change color and size -->
+                    <span class="jam jam-plus-circle"></span>
+                    <h3>Project 1</h3>
+                    <p>Whatever</p>
+                </article >
+                <article class="service-item">
+                    <span class="jam jam-minus-circle"></span>
+                    <h3>Project 2</h3>
+                    <p>Whatever</p>
+                </article >
+                <article class="service-item">
+                    <span class="jam jam-brightness-down"></span>
+                    <h3>Project 3</h3>
+                    <p>Whatever</p>
+                </article>
+            </div>
+        </div>
+        </section>
+
+        <section class="section-container about-section">  <!-- 4 About us--> <!-- Add colorbackground  -->
+        <div >
+            <h2>About us</h2>
+            <p>Development</p>
+            <a href="/projects.hmtl" class="button white ghost">See my experience</a> <!-- Looks like a nice button border  -->
+        </div>
+            <img  src="Images/bunnylogo2.png " alt="Bunny something">
+        </section>
+
+        <section class="section-container last-projects"> <!-- 5 Last Projects --> <!-- just center the elements  -->
+            <h2>Last Projects</h2>
+            <div class="content-wrapper"><!-- put the elements in a line--> 
+                <a href="#" class="project-item">         <!-- yellow block, weird effect by hovering -->
+                    <article>
+                        <h4>Project1</h4>
+                        <div class="image-container">     <!-- weird effect by hovering -->
+                            <img src="/Images/bunnylogo3.png" alt="p1">
+                        </div>
+                    </article>
+                </a>
+                <a href="#" >
+                    <article>
+                        <h4>Project2</h4>
+                        <div>
+                            <img src="/Images/bunnylogo3.png" alt="p2">
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="project-item">
+                    <article>
+                        <h4>Project3</h4>
+                        <div>
+                            <img src="/Images/bunnylogo3.png" alt="p3">
+                        </div>
+                    </article>
+                </a>
+                <a href="#" >
+                    <article>
+                        <h4>Project2</h4>
+                        <div>
+                            <img src="/Images/bunnylogo3.png" alt="p4">
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <section class="work-with-us"> <!-- 6 Last Projects --> <!-- just center the elements  -->
+            <div>
+                <h2 class="title">Do you want to communicate with me?</h2>
+                <p>Find out more about the projects</p>
+                <a href="mailto:cwmichea@uc.cl" class="button">Contact us</a>
+                <div class="social-networks"> <!-- space each other, get rid of underline and gray color  -->
+                    <a href="#" target="_blank"><span class="jam jam-facebook"></span></a>
+                    <a href="#" target="_blank"><span class="jam jam-twitter"></span></a>
+                    <a href="#" target="_blank"><span class="jam jam-instagram"></span></a>
+                    <a href="#" target="_blank"><span class="jam jam-whatsapp"></span></a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="main-footer"> <!-- 7 Footer --> <!-- Center Background color font size  -->
+        <p>All the rights reserved © | C-Bunny </p>
+    </footer>
+
+<script src="/Scripts/menu.js"></script>
+
+</body>
+</html>
+ 
